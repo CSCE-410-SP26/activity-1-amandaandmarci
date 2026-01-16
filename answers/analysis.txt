@@ -1,0 +1,33 @@
+1. Number of files in root directory: 24
+2. Available user programs in xv6: cat, echo, forktest, grep, init, kill, ln, ls, mkdir, rm, sh, stressfs, usertests, grind, wc, zombie, logstress, forphan, dorphan
+
+
+Bonus
+$ usertests
+This command ran user-space tests where some tests resulted in usertraps, 'out of blocks', and 'no inodes'.
+The command ended with 'ALL TESTS PASSED'. 
+
+The command took about 3 minutes 16 seconds.
+
+
+$ forktest
+fork test
+fork test OK
+
+The command took about 1 second.
+
+
+$ stressfs
+stressfs starting
+write 0
+write wwrriite 4te 
+13
+w
+rite 2
+read
+read
+read
+read
+read
+
+The command took about 1 second.
